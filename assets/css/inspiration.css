@@ -50,6 +50,7 @@ section h5 {
   grid-template-columns: repeat(2, 1fr);
   margin-top: 10.9rem;
   padding-right: 20vw;
+  padding-bottom: 10vh;
 }
 
 .grid div {

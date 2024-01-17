@@ -90,7 +90,7 @@ html {
 .header nav {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 4rem;
 }
 
 .header nav a {
