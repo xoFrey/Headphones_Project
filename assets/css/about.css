@@ -1,0 +1,164 @@
+@font-face {
+  font-family: WorkSans;
+  src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
+}
+/* @font-face {
+  font-family: LucidaGrande;
+  src: url(../fonts/Lucida_Grande/LucidaGrande.ttf);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: WorkSans, sans-serif;
+}
+
+:root {
+  --background: #2e2e2e;
+  --textcolor: #ebccc2;
+  --linkscolor: #867772;
+  --greytextcolor: #737373;
+}
+/* ! Background */
+
+.bg {
+  background-color: var(--background);
+}
+
+/* ! ASIDE Bar */
+
+aside {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  top: 20vh;
+}
+.border {
+  border-left: 1px solid var(--greytextcolor);
+  height: 4.8rem;
+  margin-left: 2.5vw;
+  margin-bottom: 1rem;
+}
+
+.aside a {
+  font-size: 1.6rem;
+  color: var(--greytextcolor);
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 2.1vw;
+  margin-bottom: 1rem;
+  transition: 0.5s;
+}
+.aside a:nth-of-type(1) {
+  color: white;
+}
+
+.aside a:nth-of-type(1):before {
+  content: "○";
+  color: var(--greytextcolor);
+  margin-left: -4px;
+  margin-right: 4rem;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  display: inline-block;
+  width: 18.5px;
+  text-align: center;
+}
+
+.aside a::before {
+  content: "○";
+  margin-right: 4rem;
+}
+
+/* ! Header NAV */
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.9rem 3.9rem;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  gap: 2.6rem;
+  margin-bottom: 4.6rem;
+}
+
+.header nav a {
+  color: var(--linkscolor);
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* ! Main HUMAN */
+
+main h4 {
+  font-size: 2.4rem;
+  color: var(--textcolor);
+  font-weight: 400;
+  width: 50vw;
+  padding-left: 30vw;
+  margin-bottom: 9.2rem;
+}
+
+.human {
+  padding: 0 5vw;
+  height: 200vh;
+  object-fit: cover;
+  margin-bottom: 11.3rem;
+}
+
+/* ! Main article */
+
+main article {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15vw;
+  gap: 6.5rem;
+  padding-bottom: 10rem;
+}
+
+main article img {
+  width: 42.7rem;
+  height: 42.7rem;
+}
+
+main article h3 {
+  color: var(--textcolor);
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+main article p {
+  color: var(--greytextcolor);
+  font-size: 1.6rem;
+  line-height: 150%;
+  margin-bottom: 1.8rem;
+  padding-right: 15vw;
+}
+
+/* ! Hover  */
+
+header nav a:hover {
+  color: var(--textcolor);
+  text-decoration: underline;
+}
+
+.aside a:hover {
+  color: white;
+}
