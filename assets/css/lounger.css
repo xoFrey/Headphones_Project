@@ -2,39 +2,37 @@ main p {
   font-size: 1.6rem;
 }
 
-.the-lounger {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-/* 
+/* ! Image */
+
 .image {
-  background: url(../img/section-voyager.jpg) no-repeat center;
-  height: 100vh;
-  width: 50vw;
-  background-size: cover;
-} */
-.bg {
-  position: relative;
-}
-
-main img {
-  width: 50vw;
-  object-fit: cover;
+  background: url(../img/section-voyager.jpg) no-repeat left;
+  background-size: 56vw 80vh;
   height: 80vh;
-  position: absolute;
-  top: 0;
 }
 
-.the-lounger p {
-}
+/* ! text */
+
 .the-lounger {
-  margin-left: 40vw;
+  margin-top: 5vh;
+  margin-left: 55vw;
+  padding-right: 10vw;
+  padding-left: 3vw;
 }
 
 .the-lounger h2 {
   color: var(--textcolor);
   font-size: 4.8rem;
   font-weight: 400;
-  margin-bottom: 2rem;
+  margin-bottom: 8.8rem;
+}
+
+.the-lounger p {
+  color: var(--greytextcolor);
+  line-height: 150%;
+  font-size: 1.6rem;
+  margin-bottom: 2.1rem;
+}
+
+.the-lounger p:nth-of-type(3) {
+  margin-bottom: 11rem;
 }
