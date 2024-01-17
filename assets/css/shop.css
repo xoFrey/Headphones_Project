@@ -8,8 +8,8 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-left: 60vw;
-  margin-top: -10vh;
+  margin-left: 55vw;
+  margin-top: -5vh;
 }
 .headphones h3 {
   color: var(--textcolor);
