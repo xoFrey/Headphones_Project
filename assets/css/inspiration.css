@@ -1,0 +1,80 @@
+section {
+  margin-left: 20vw;
+}
+
+video {
+  margin-bottom: 2.8rem;
+}
+
+/* ! text stylen */
+
+section p {
+  text-transform: uppercase;
+  color: var(--textcolor);
+  font-size: 1.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 1.4rem;
+}
+
+section h5 {
+  font-size: 4rem;
+  color: var(--textcolor);
+  font-weight: 400;
+  margin-bottom: 4.1rem;
+}
+
+.box {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.box p {
+  font-size: 1.6rem;
+  color: var(--greytextcolor);
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 0.5rem 1.6rem;
+}
+
+.define {
+  font-size: 1.6rem;
+  text-transform: none;
+  color: var(--greytextcolor);
+  letter-spacing: 0px;
+}
+
+/* ! grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 10.9rem;
+  padding-right: 20vw;
+}
+
+.grid div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.3rem 10vw 1.3rem 1.3rem;
+}
+
+.grid div p:nth-of-type(1) {
+  font-size: 1.9rem;
+  text-transform: none;
+  letter-spacing: 0px;
+}
+.grid div p:nth-of-type(2) {
+  font-size: 1.6rem;
+  text-transform: none;
+  letter-spacing: 0px;
+  color: var(--greytextcolor);
+  line-height: 150%;
+}
+
+.grid div h3 {
+  color: var(--textcolor);
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+}

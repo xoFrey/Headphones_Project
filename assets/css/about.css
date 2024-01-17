@@ -81,18 +81,16 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.9rem 3.9rem;
+  padding: 2.9rem 5.2rem;
   position: sticky;
   top: 0;
   margin-bottom: 4.6rem;
-  z-index: 1;
-  background: transparent;
 }
 
 .header nav {
   display: flex;
   justify-content: center;
-  gap: 2.6rem;
+  gap: 6rem;
 }
 
 .header nav a {
