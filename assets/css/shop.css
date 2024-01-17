@@ -1,0 +1,35 @@
+.shop {
+  background: url(../img/section-composition4.jpg) no-repeat left;
+  background-size: 56vw 80vh;
+  height: 80vh;
+}
+
+.headphones {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 60vw;
+  margin-top: -10vh;
+}
+.headphones h3 {
+  color: var(--textcolor);
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+  margin-top: -3rem;
+}
+
+.headphones p {
+  color: var(--greytextcolor);
+  font-size: 1.6rem;
+  margin-bottom: 2.1rem;
+}
+
+.headphones a {
+  background-color: var(--textcolor);
+  padding: 1.2rem 3.1rem;
+  border-radius: 2px;
+  text-decoration: none;
+  color: var(--background);
+  font-size: 1.6rem;
+}
