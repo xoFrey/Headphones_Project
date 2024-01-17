@@ -86,13 +86,15 @@ aside {
   align-items: center;
   justify-content: space-between;
   padding: 2.9rem 3.9rem;
+  position: sticky;
+  top: 0;
+  margin-bottom: 4.6rem;
 }
 
 .header nav {
   display: flex;
   justify-content: center;
   gap: 2.6rem;
-  margin-bottom: 4.6rem;
 }
 
 .header nav a {

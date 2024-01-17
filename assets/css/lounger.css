@@ -2,18 +2,19 @@ main p {
   font-size: 1.6rem;
 }
 
-.aside a:nth-of-type(2) {
-  color: white;
+.the-lounger {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
-.aside a:nth-of-type(2):before {
-  content: "○";
-  color: var(--greytextcolor);
-  margin-left: -4px;
-  margin-right: 4rem;
-  border: 2px solid rgb(255, 255, 255);
-  border-radius: 50%;
-  display: inline-block;
-  width: 18.5px;
-  text-align: center;
+.image {
+  background: url(../img/section-voyager.jpg) no-repeat center;
+  height: 100vh;
+  width: 50vw;
+  background-size: cover;
+}
+
+.the-lounger p {
+  margin-bottom: 1rem;
 }
