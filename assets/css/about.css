@@ -2,10 +2,6 @@
   font-family: WorkSans;
   src: url(../fonts/Work_Sans/WorkSans-VariableFont_wght.ttf);
 }
-/* @font-face {
-  font-family: LucidaGrande;
-  src: url(../fonts/Lucida_Grande/LucidaGrande.ttf);
-} */
 
 * {
   margin: 0;
@@ -41,7 +37,6 @@ html {
   display: flex;
   flex-direction: column;
   top: 20vh;
-  z-index: 1;
 }
 .border {
   border-left: 1px solid var(--greytextcolor);
