@@ -21,7 +21,7 @@
   <li><samp>Flexbox</samp></li>
 </ul>
 
-<p>Note: This project will be soon done in vue.js</p>
+<p>Note: This project will be re-made</p>
 
 <h2><samp>Screenshot</samp></h2>
 
