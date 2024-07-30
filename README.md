@@ -21,6 +21,8 @@
   <li><samp>Flexbox</samp></li>
 </ul>
 
+Note: This project will be soon done in vue.js
+
 <h2><samp>Screenshot</samp></h2>
 
 <p align="center">
