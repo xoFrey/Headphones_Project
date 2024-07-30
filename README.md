@@ -21,3 +21,12 @@
   <li><samp>Flexbox</samp></li>
 </ul>
 
+<h2><samp>Screenshot</samp></h2>
+
+<p align="center">
+<img src="./assets/img/screenshot-about.png"/>
+<img src="./assets/img/screenshot-experience.png"/>
+<img src="./assets/img/screenshot-inspiration.png"/>
+<img src="./assets/img/screenshot-lounger.png"/>
+<img src="./assets/img/screenshot-shop.png"/>
+</p>
